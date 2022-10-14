@@ -2,7 +2,7 @@ module.exports = {
     apps: [{
         name: 'medusa-admin',
         script: 'npm',
-        args: 'serve',
+        args: 'run serve',
         env_production: {
             NODE_ENV: 'production'
         },
